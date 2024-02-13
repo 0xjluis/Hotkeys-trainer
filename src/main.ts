@@ -28,8 +28,52 @@ const hotkeys: Hotkey[] = [
   { ctrlKey: true, shiftKey: true, key: 'd', message: 'Ctrl + Shift + D' },
   { ctrlKey: true, shiftKey: true, key: 'k', message: 'Ctrl + Shift + K' },
   { altKey: true, key: 'd', message: 'Alt + D' },
+  { ctrlKey: true, key: 'f', message: 'Ctrl + F' },
+  { ctrlKey: true, key: 'n', message: 'Ctrl + N' },
+  { ctrlKey: true, key: 'r', message: 'Ctrl + R' },
+  { shiftKey: true, key: 'Delete', message: 'Shift + Delete' },
+  { ctrlKey: true, shiftKey: true, key: 's', message: 'Ctrl + Shift + S' },
+  { ctrlKey: true, key: 'p', message: 'Ctrl + P' },
+  { ctrlKey: true, key: 'l', message: 'Ctrl + L' },
+  { ctrlKey: true, altKey: true, key: 't', message: 'Ctrl + Alt + T' },
+  { ctrlKey: true, key: 'l', message: 'Ctrl + L: Select the line.' },
+  { ctrlKey: true, key: 'x', message: 'Ctrl + X: Cut the line.' },
+  { ctrlKey: true, key: 'd', message: 'Ctrl + D: Select the word.' },
+  { ctrlKey: true, key: 'm', message: 'Ctrl + M: Go to the matching parenthesis.' },
+  { ctrlKey: true, key: 'Enter', message: 'Ctrl + Enter: Insert the line after.' },
+  { ctrlKey: true, shiftKey: true, key: 'Enter', message: 'Shift + Ctrl + Enter: Insert the line before.' },
+  { ctrlKey: true, shiftKey: true, key: 'm', message: 'Shift + Ctrl + M: Select all the content of the current parenthesis.' },
+  { ctrlKey: true, shiftKey: true, key: 'ArrowUp', message: 'Shift + Ctrl + UP: Move the line or selection up.' },
+  { ctrlKey: true, shiftKey: true, key: 'ArrowDown', message: 'Shift + Ctrl + Down: Move the line or selection down.' },
+  { ctrlKey: true, key: 'u', message: 'Ctrl + U: Undo the last action.' },
+  { ctrlKey: true, key: 'y', message: 'Ctrl + Y: Redo the last action.' },
+  { ctrlKey: true, key: 'j', message: 'Ctrl + J: Join the line below to the end of the current line.' },
+  { ctrlKey: true, shiftKey: true, key: 'v', message: 'Shift + Ctrl + V: Paste and indent correctly.' },
+  { ctrlKey: true, shiftKey: true, key: 'd', message: 'Shift + Ctrl + D: Duplicate lines.' },
+  { ctrlKey: true, key: 'g', message: 'Ctrl + G: Go to line in the current file.' },
+  { ctrlKey: true, key: 'f', message: 'Ctrl + F: Find the word.' },
+  { ctrlKey: true, shiftKey: true, key: 'f', message: 'Shift + Ctrl + F: Find the word in files.' },
+  { ctrlKey: true, key: 'h', message: 'Ctrl + H: Replace the selected word.' },
+  { ctrlKey: true, shiftKey: true, key: 'k', message: 'Shift + Ctrl + K: Delete the entire line.' },
+
+  { ctrlKey: true, key: '0', message: 'Ctrl + 0' },
+
   { sequence: 'npm', message: 'npm' },
   { sequence: 'yarn start', message: 'yarn start' },
+  { sequence: 'cd ..', message: 'cd ..' },
+  { sequence: 'mkdir new_folder', message: 'mkdir new_folder' },
+  { sequence: 'npm install', message: 'npm install' },
+  { sequence: 'git clone', message: 'git clone' },
+  { sequence: 'ls -la', message: 'ls -la' }, // Más común en ambientes Unix/Linux
+  { sequence: 'dir', message: 'dir' }, // Comando para listar directorios en Windows
+  { sequence: 'ping google.com', message: 'ping google.com' },
+  { sequence: 'exit', message: 'exit' },
+  { sequence: '()', message: '()' },
+  { sequence: '{}', message: '{}' },
+  { sequence: '://', message: '://' },
+  { sequence: '18', message: '18' },
+  { sequence: '50', message: '50' }
+
 ];
 
 
