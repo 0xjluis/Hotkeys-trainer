@@ -87,7 +87,7 @@ function selectRandomHotkey(): Hotkey {
 function updateChallenge(hotkey: Hotkey) {
   const challengeElement = document.getElementById('challenge');
   if (challengeElement) {
-    challengeElement.textContent = `Presiona: ${hotkey.message}`;
+    challengeElement.textContent = `${hotkey.message}`;
   }
 }
 
